@@ -1,0 +1,22 @@
+.hero{
+  position: relative;
+  padding: 70px 0 536px;
+  background-color: #49BCF1;
+  background-image: url(../../img/strelka.png),url(../../img/herobg.png);
+  background-repeat: no-repeat;
+  background-size: 30px 107px,contain;
+  background-position: center calc(51%), center bottom;
+
+}
+
+.hero__title{
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 69px;
+  letter-spacing: 8.75px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}

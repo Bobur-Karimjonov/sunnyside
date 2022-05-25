@@ -456,7 +456,7 @@ img {
   text-decoration: none;
 }
 
-.menu__item--modefile {
+.menu__link--modefile {
   max-width: 140px;
   width: 100%;
   padding: 15px 31px;
@@ -464,7 +464,7 @@ img {
   border-radius: 28px;
   font-family: 'Fraunces 9pt Soft';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 15px;
   line-height: 25px;
   letter-spacing: -0.107143px;
@@ -472,9 +472,31 @@ img {
   color: #24303E;
 }
 
-.menu__item--modefile:hover {
+.menu__link--modefile:hover {
   background-color: #78cef5;
   border-radius: 28px;
   color: #FFFFFF;
+}
+
+.hero {
+  position: relative;
+  padding: 70px 0 536px;
+  background-color: #49BCF1;
+  background-image: url(../../img/strelka.png), url(../../img/herobg.png);
+  background-repeat: no-repeat;
+  background-size: 30px 107px,contain;
+  background-position: center calc(51%), center bottom;
+}
+
+.hero__title {
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 69px;
+  letter-spacing: 8.75px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
