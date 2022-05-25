@@ -7,7 +7,6 @@
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-/* barlow-600 - latin */
 @font-face {
   font-family: 'Barlow';
   font-style: normal;
@@ -403,7 +402,7 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1460px;
+  max-width: 1350px;
   margin: 0 auto;
   padding: 0 20px;
 }
