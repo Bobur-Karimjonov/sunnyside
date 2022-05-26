@@ -373,6 +373,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .main {
@@ -498,5 +499,139 @@ img {
   margin: 0;
   padding: 0;
   text-align: center;
+}
+
+.transform__list {
+  width: 1440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.transform__item {
+  width: 1440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.transform__item:nth-child(2) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.transform__info {
+  width: 445px;
+  margin-right: 107px;
+  margin-left: 125px;
+}
+
+.transform__info:last-child {
+  margin-right: 0;
+  margin-left: 107px;
+}
+
+.transform__title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: -0.285714px;
+  color: #24303E;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.transform__text {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.128571px;
+  color: #808397;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.transform__link {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24303E;
+  text-decoration: none;
+}
+
+.fruit__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  width: 1440px;
+}
+
+.fruit__item {
+  padding: 398px 190px 59px;
+  width: 720px;
+  background-image: url(../../img/cherry.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.fruit__item:nth-child(2) {
+  background-image: url(../../img/mandarin.jpg);
+  color: #19536C;
+}
+
+.fruit__title {
+  margin: 0;
+  margin-bottom: 27px;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: -0.2px;
+  color: #24554A;
+}
+
+.fruit__title--modifile {
+  color: #052C3B;
+}
+
+.fruit__text {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: -0.114286px;
+  color: #3E7467;
+  margin: 0;
+}
+
+.fruit__text--modile {
+  color: #19536C;
 }
 /*# sourceMappingURL=main.css.map */
