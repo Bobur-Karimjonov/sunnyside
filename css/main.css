@@ -490,7 +490,6 @@ img {
   color: #FFFFFF;
 }
 
-
 .button {
   display: none;
   background-color: transparent;
@@ -511,6 +510,8 @@ img {
     color: #fff;
     border: none;
     font-size: 24px;
+  }
+}
 
 .client {
   padding: 160px 0;
@@ -639,7 +640,6 @@ img {
   .bottom__img {
     width: 160px;
     height: 160px;
-
   }
 }
 
@@ -847,7 +847,6 @@ img {
   color: #19536C;
 }
 
-
 @media only screen and (max-width: 520px) {
   .fruit__list {
     -webkit-box-orient: vertical;
@@ -864,6 +863,8 @@ img {
   }
   .fruit__title {
     margin-top: -41px;
+  }
+}
 
 .footer {
   padding: 72px 0;
@@ -942,7 +943,6 @@ img {
 @media only screen and (max-width: 520px) {
   .footer {
     padding: 64px 0 80px;
-
   }
 }
 /*# sourceMappingURL=main.css.map */
