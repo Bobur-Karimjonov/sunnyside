@@ -1,0 +1,50 @@
+
+.fruit__list {
+  display: flex;
+  // align-items: center;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  width: 1440px;
+}
+.fruit__item {
+  // background-color: ;
+  padding: 398px 190px 59px;
+  width: 720px;
+  background-image: url(../../img/cherry.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.fruit__item:nth-child(2){
+  background-image: url(../../img/mandarin.jpg);
+  // background-color: red;
+  color: #19536C;
+}
+
+.fruit__title {
+  margin: 0;
+  margin-bottom: 27px;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: -0.2px;
+  color: #24554A;
+}
+.fruit__title--modifile{
+  color: #052C3B;
+}
+.fruit__text {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: -0.114286px;
+  color: #3E7467;
+  margin: 0;
+}
+.fruit__text--modile{
+  color: #19536C;
+}
